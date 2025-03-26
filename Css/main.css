@@ -1,0 +1,23 @@
+.bg-\#f3edd6 {
+    background-color: #f3edd6;
+}
+
+.nav {
+    --bs-nav-link-hover-color: #c24511;
+}
+
+.nav-link {
+    color: #e26a1f;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #c24511;
+}
+
+.nav-pills {
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #e26a1f;
+    transition: 0.5s;
+}
+
