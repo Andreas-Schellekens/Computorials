@@ -1,7 +1,6 @@
 .main-img {
     width: 100%;
     height: auto;
-    max-width: 500px;
     border-radius: 5px;
 }
 
@@ -20,11 +19,68 @@ section:hover {
     max-width: 500px;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
+
+    .img-div {
+        position: relative;
+    }
+
+    .text-div {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 324px;
+        height: 324px;
+        filter: grayscale(100%);
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .text-div:hover {
+        color: #e26a1f;
+        filter: grayscale(0%);
+    }
+
     section {padding: 1rem;
-        background-color: #f5efe9}
+        background-color: #f5efe9;
+    width: 600px}
+
+    section:hover {
+        background-color: #f5efe9;
+    }
 
     figcaption {display: none}
 
+}
+
+@media screen and (min-width: 992px) {
+
+    .text-div {
+        height: 288px;
+        width: 288px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+
+    .text-div {
+        height: 348px;
+        width: 348px;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+
+
+    .text-div {
+        height: 408px;
+        width: 408px;
+    }
 
 }
