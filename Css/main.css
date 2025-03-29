@@ -8,6 +8,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    background-color: #f5efe9;
 }
 
 h1, h2, h3, h4 {
@@ -39,6 +40,8 @@ h1, h2, h3, h4 {
 
 .full-footer {
     background-color: #f3edd6;
+
 }
+
 
 
