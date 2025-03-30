@@ -12,26 +12,44 @@ section {
 }
 
 section:hover {
-  background-color: #1f97e2;;
+  background-color: #1f97e2;
 }
 
 .cards section {
     max-width: 500px;
 }
 
+.text-div {display: none}
+
 @media screen and (min-width: 768px) {
+
+    .main-img {
+        filter: blur(5px);
+        transition:  0.3s ease-in-out;
+
+    }
 
     .img-div {
         position: relative;
+
     }
 
+    .img-div:hover .main-img {
+        filter: blur(0);
+        scale: 103%;
+    }
+
+
+
     .text-div {
+        font-family: "Staatliches", sans-serif;
+        font-size: 2rem;
         position: absolute;
         left: 0px;
         top: 0px;
         width: 324px;
         height: 324px;
-        filter: grayscale(100%);
+        text-align: center;
         transition: 0.5s;
         display: flex;
         justify-content: center;
@@ -39,9 +57,21 @@ section:hover {
 
     }
 
+    .text-div {
+        color: #1f97e2;
+    }
+
+
     .text-div:hover {
         color: #e26a1f;
-        filter: grayscale(0%);
+    }
+
+    .inverted-colors {
+        color: #e26a1f;
+    }
+
+    .inverted-colors:hover {
+        color: #1f97e2;
     }
 
     section {padding: 1rem;
