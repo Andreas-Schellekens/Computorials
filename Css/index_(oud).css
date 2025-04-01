@@ -1,0 +1,116 @@
+.main-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+section {
+    padding: 2rem;
+    background-color: rgba(31, 151, 226, 0.5);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+section:hover {
+  background-color: #1f97e2;
+}
+
+.cards section {
+    max-width: 500px;
+}
+
+.text-div {display: none}
+
+@media screen and (min-width: 768px) {
+
+    .main-img {
+        filter: blur(5px);
+        transition:  0.3s ease-in-out;
+
+    }
+
+    .img-div {
+        position: relative;
+
+    }
+
+    .img-div:hover .main-img {
+        filter: blur(0);
+        scale: 103%;
+    }
+
+
+
+    .text-div {
+        font-family: "Staatliches", sans-serif;
+        font-size: 2rem;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 324px;
+        height: 324px;
+        text-align: center;
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .text-div {
+        color: #1f97e2;
+    }
+
+
+    .text-div:hover {
+        color: #e26a1f;
+    }
+
+    .inverted-colors {
+        color: #e26a1f;
+    }
+
+    .inverted-colors:hover {
+        color: #1f97e2;
+    }
+
+    section {padding: 1rem;
+        background-color: #f5efe9;
+    width: 600px}
+
+    section:hover {
+        background-color: #f5efe9;
+    }
+
+    figcaption {display: none}
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .text-div {
+        height: 288px;
+        width: 288px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+
+    .text-div {
+        height: 348px;
+        width: 348px;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+
+
+    .text-div {
+        height: 408px;
+        width: 408px;
+    }
+
+}
