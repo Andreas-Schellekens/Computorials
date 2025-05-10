@@ -15,10 +15,9 @@ Computorials is a new interactive way of learning about computers and their comp
 - **Beginner-Friendly** – No prior experience needed!
 
 ## Getting Started
-1. **Install Computorials** – Download and install the application or access it online.
-2. **Create an Account** – Sign up to track your progress and save your learning sessions.
-3. **Choose a Module** – Select a topic that interests you.
-4. **Start Exploring** – Follow guided instructions, interact with components, and take quizzes to reinforce learning.
+1. **Install Computorials** – Download and install the application.
+2. **Choose a Module** – Select a topic that interests you.
+3. **Start Exploring** – Follow guided instructions, interact with components, and take quizzes to reinforce learning.
 
 ## Target Audience
 Computorials is perfect for:
